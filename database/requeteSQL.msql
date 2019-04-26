@@ -1,0 +1,4 @@
+CREATE DATABASE premierTutoLaravel;
+CREATE USER 'laravel'@'localhost' IDENTIFIED BY 'L@rav3l';
+GRANT ALL PRIVILEGES ON premierTutoLaravel.* TO 'laravel'@'localhost';
+
